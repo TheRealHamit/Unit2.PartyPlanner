@@ -1,0 +1,19 @@
+table{
+    background-color: #666666;
+    border-spacing: 5px;
+}
+
+th{
+    color: white;
+}
+
+td{
+    /* border: solid red; */
+    background-color: #cccccc;
+}
+
+.delete > button{
+    display: block;
+    margin: auto;
+    padding: 5px 10px
+}

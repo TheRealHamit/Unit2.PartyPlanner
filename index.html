@@ -8,6 +8,41 @@
     <script defer src="javascript.js"></script>
 </head>
 <body>
-    
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">Parties</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Date</td>
+                <td>Time</td>
+                <td>Location</td>
+                <td>Description</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+        <tbody id="events">
+        </tbody>
+    </table>
+    <form id="addEvent">
+        <label id="eventName">
+          Name:
+          <input type="text" name="name" value="asd" />
+        </label>
+        <label id="eventDate">
+          Date:
+          <input type="datetime-local" name="date" value="2017-06-01T08:30" />
+        </label>
+        <label id="eventLocation">
+          Location:
+          <input type="text" name="location" value="asd" />
+        </label>
+        <label id="eventDescription">
+          Description:
+          <textarea name="description">asd</textarea>
+        </label>
+        <button>Add Event</button>
+      </form>
 </body>
 </html>
